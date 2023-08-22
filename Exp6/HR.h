@@ -1,0 +1,284 @@
+
+#ifndef ADMIN_H
+#define ADMIN_H
+
+#include <string>
+
+/**
+  * class Admin
+  * 
+  */
+
+class Admin
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  Admin ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~Admin ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  int id;
+  string username;
+  string password;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of id
+   * @param new_var the new value of id
+   */
+  void setId (int new_var)   {
+      id = new_var;
+  }
+
+  /**
+   * Get the value of id
+   * @return the value of id
+   */
+  int getId ()   {
+    return id;
+  }
+
+  /**
+   * Set the value of username
+   * @param new_var the new value of username
+   */
+  void setUsername (string new_var)   {
+      username = new_var;
+  }
+
+  /**
+   * Get the value of username
+   * @return the value of username
+   */
+  string getUsername ()   {
+    return username;
+  }
+
+  /**
+   * Set the value of password
+   * @param new_var the new value of password
+   */
+  void setPassword (string new_var)   {
+      password = new_var;
+  }
+
+  /**
+   * Get the value of password
+   * @return the value of password
+   */
+  string getPassword ()   {
+    return password;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // ADMIN_H
+
+
+#ifndef HR_H
+#define HR_H
+
+#include <string>
+
+/**
+  * class HR
+  * 
+  */
+
+class HR
+{
+public:
+
+  // Constructors/Destructors
+  //  
+
+
+  /**
+   * Empty Constructor
+   */
+  HR ();
+
+  /**
+   * Empty Destructor
+   */
+  virtual ~HR ();
+
+  // Static Public attributes
+  //  
+
+  // Public attributes
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+  // Public attribute accessor methods
+  //  
+
+
+protected:
+
+  // Static Protected attributes
+  //  
+
+  // Protected attributes
+  //  
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+public:
+
+
+  // Protected attribute accessor methods
+  //  
+
+protected:
+
+
+private:
+
+  // Static Private attributes
+  //  
+
+  // Private attributes
+  //  
+
+  void Verification;
+  void resume;
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+private:
+
+public:
+
+
+  // Private attribute accessor methods
+  //  
+
+
+  /**
+   * Set the value of Verification
+   * @param new_var the new value of Verification
+   */
+  void setVerification (void new_var)   {
+      Verification = new_var;
+  }
+
+  /**
+   * Get the value of Verification
+   * @return the value of Verification
+   */
+  void getVerification ()   {
+    return Verification;
+  }
+
+  /**
+   * Set the value of resume
+   * @param new_var the new value of resume
+   */
+  void setResume (void new_var)   {
+      resume = new_var;
+  }
+
+  /**
+   * Get the value of resume
+   * @return the value of resume
+   */
+  void getResume ()   {
+    return resume;
+  }
+private:
+
+
+  void initAttributes () ;
+
+};
+
+#endif // HR_H
